@@ -19,6 +19,8 @@ NOW YOU MUST ENTER YOUR URL İN 10 SECONDS
 Extract ip addresses with command;
 
 dos2unix ipextractor.sh
+
 chmod +x ipextractor.sh
+
 bash ipextractor.sh
 
