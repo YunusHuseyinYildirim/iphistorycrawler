@@ -18,4 +18,5 @@ NOW YOU MUST ENTER YOUR URL İN 10 SECONDS
 
 Extract ip addresses with command;
 
+file="yhy.txt"
 sudo grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" yhy.txt | sort | uniq
