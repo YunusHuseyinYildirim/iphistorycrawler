@@ -3,7 +3,7 @@ import urllib.request
 from urllib import robotparser
 from urllib.parse import urljoin
 from urllib.error import URLError, HTTPError, ContentTooShortError
-from chp1.throttle import Throttle
+from throttle import Throttle
 
 
 def download(url, num_retries=2, user_agent='wswp', charset='utf-8', proxy=None):
