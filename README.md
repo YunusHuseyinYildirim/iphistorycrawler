@@ -16,10 +16,8 @@ python3 iphistorycrawler.py > yhy.txt
 
 NOW YOU MUST ENTER YOUR URL İN 10 SECONDS
 
-Extract ip address from bash script
+Extract ip addresses with command;
 
-chmod +x ipextractor.sh
-
-bash ipextractor.sh
+sudo grep -o "[0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+" yhy.txt | sort | uniq
 
 İmportant: İf you wanna use different file name you have to change file name in bash script by nano etc. text editors
